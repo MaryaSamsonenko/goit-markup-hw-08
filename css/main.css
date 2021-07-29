@@ -580,6 +580,11 @@ img {
     max-width: unset;
   }
 }
+@media screen and (max-width: 1200px) {
+  .services {
+    display: none;
+  }
+}
 .services__list {
   display: flex;
 }
