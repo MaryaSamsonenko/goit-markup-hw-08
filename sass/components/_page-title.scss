@@ -1,0 +1,5 @@
+.page__title {
+  @include font($fw: 700, $fs: 14px, $lh: 16px);
+
+  text-transform: uppercase;
+}

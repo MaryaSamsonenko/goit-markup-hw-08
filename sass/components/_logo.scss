@@ -1,0 +1,32 @@
+%logo {
+  display: inline-block;
+
+  font-family: var(--secondary-font);
+
+  @include font($fw: 700, $fs: 26px, $lh: 31px);
+
+  transition: color 250ms var(--timing-function);
+}
+
+.logo__accent {
+  @extend %logo;
+  color: var(--accent-color);
+}
+
+.logo__header {
+  @extend %logo;
+
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  color: var(--logo-footer-color);
+}
+
+.logo__footer {
+  @extend %logo;
+
+  margin-bottom: 20px;
+
+  color: var(--hero-text-color);
+}

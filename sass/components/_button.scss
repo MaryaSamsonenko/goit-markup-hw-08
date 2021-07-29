@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+
+  min-width: 136px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+
+  @include font($fw: 700, $fs: 16px, $lh: 30px, $ls: 0.06em);
+
+  transition: background-color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--modal-button-background);
+    box-shadow: 0px 4px 4px var(--modal-button-shadow);
+  }
+
+  &__form {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__footer {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    &--svg {
+      margin-left: 10px;
+    }
+  }
+}

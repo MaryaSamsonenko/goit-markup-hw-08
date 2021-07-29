@@ -1,0 +1,38 @@
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+
+  font-style: 400;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-box {
+  padding-bottom: 94px;
+}
