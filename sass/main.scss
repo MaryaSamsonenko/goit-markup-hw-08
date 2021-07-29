@@ -3,6 +3,10 @@
 @import './utils/variables';
 @import './utils/mixin';
 
+//Base
+@import './base/common';
+@import './base/container';
+
 //Components
 @import './components/logo';
 @import './components/subtitle';
@@ -14,10 +18,6 @@
 @import './components/modal-window';
 @import './components/modal-form';
 @import './components/modal-checkbox';
-
-//Base
-@import './base/common';
-@import './base/container';
 
 //Layout
 @import './layout/header';

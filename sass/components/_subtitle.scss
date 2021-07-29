@@ -4,5 +4,11 @@
 
   color: var(--title-text-color);
 
-  @include font($fw: 700, $fs: 36px, $lh: 42px);
+  @include font($fw: 700, $fs: 28px, $lh: 33px);
+}
+
+@media screen and (min-width: 1200px) {
+  .subtitle {
+    @include font($fw: 700, $fs: 36px, $lh: 42px);
+  }
 }

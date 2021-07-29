@@ -1,4 +1,5 @@
-%logo {
+.logo__header,
+.logo__header {
   display: inline-block;
 
   font-family: var(--secondary-font);
@@ -9,23 +10,28 @@
 }
 
 .logo__accent {
-  @extend %logo;
   color: var(--accent-color);
 }
 
-.logo__header {
-  @extend %logo;
+@media screen and (max-width: 767px) {
+  .logo__header {
+    padding-top: 16px;
+    padding-bottom: 16px;
 
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+    color: var(--logo-footer-color);
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo__header {
+    margin-right: 93px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
-  color: var(--logo-footer-color);
+    color: var(--logo-footer-color);
+  }
 }
 
 .logo__footer {
-  @extend %logo;
-
   margin-bottom: 20px;
 
   color: var(--hero-text-color);
