@@ -1,12 +1,23 @@
 .logo__header,
-.logo__header {
+.logo__footer {
   display: inline-block;
 
   font-family: var(--secondary-font);
 
-  @include font($fw: 700, $fs: 26px, $lh: 31px);
+  @include font($fw: 700, $fs: 24px, $lh: 28px);
 
   transition: color 250ms var(--timing-function);
+}
+
+.logo__footer {
+  color: var(--hero-text-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .logo__header,
+  .logo__footer {
+    @include font($fw: 700, $fs: 26px, $lh: 31px);
+  }
 }
 
 .logo__accent {
@@ -21,6 +32,13 @@
     color: var(--logo-footer-color);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .logo__footer {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .logo__header {
     margin-right: 93px;
