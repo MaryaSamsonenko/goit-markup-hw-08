@@ -13,7 +13,7 @@
       var(--hero-background-image-color),
       var(--hero-background-image-color)
     ),
-    url('../../images/hero/hero-img-mobile.jpg');
+    url('../images/hero/hero-img-mobile.jpg');
 
   &__title {
     margin-bottom: 30px;
@@ -30,7 +30,7 @@
         var(--hero-background-image-color),
         var(--hero-background-image-color)
       ),
-      url('../../images/hero/hero-img-mobile@2x.jpg');
+      url('../images/hero/hero-img-mobile@2x.jpg');
   }
 }
 
@@ -44,7 +44,7 @@
         var(--hero-background-image-color),
         var(--hero-background-image-color)
       ),
-      url('../../images/hero/hero-img-tablet.jpg');
+      url('../images/hero/hero-img-tablet.jpg');
   }
 }
 
@@ -57,7 +57,7 @@
         var(--hero-background-image-color),
         var(--hero-background-image-color)
       ),
-      url('../../images/hero/hero-img-tablet@2x.jpg');
+      url('../images/hero/hero-img-tablet@2x.jpg');
   }
 }
 
@@ -75,7 +75,7 @@
         var(--hero-background-image-color),
         var(--hero-background-image-color)
       ),
-      url('../../images/hero/hero-img-desktop.jpg');
+      url('../images/hero/hero-img-desktop.jpg');
     max-width: 1600px;
     min-height: 600px;
 
@@ -96,7 +96,7 @@
         var(--hero-background-image-color),
         var(--hero-background-image-color)
       ),
-      url('../../images/hero/hero-img-desktop@2x.jpg');
+      url('../images/hero/hero-img-desktop@2x.jpg');
   }
 }
 
