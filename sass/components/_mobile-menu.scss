@@ -62,7 +62,11 @@
   }
 }
 .burger-btn:active,
-.close-btn:active {
+.burger-btn:hover,
+.burger-btn:focus,
+.close-btn:active,
+.close-btn:hover,
+.close-btn:focus {
   fill: var(--accent-color);
 }
 
