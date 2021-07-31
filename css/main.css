@@ -476,6 +476,7 @@ img {
   border: none;
   padding: 0;
   line-height: 0;
+  transition: fill 250ms var(--timing-function);
 }
 .burger-btn__icon {
   width: 40px;
@@ -508,13 +509,15 @@ img {
   border: none;
   padding: 0;
   line-height: 0;
+  transition: fill 250ms var(--timing-function);
 }
 .close-btn__icon {
   width: 40px;
   height: 40px;
-  transition: fill 250ms var(--timing-function);
 }
-.close-btn__icon:hover, .close-btn__icon:focus {
+
+.burger-btn:active,
+.close-btn:active {
   fill: var(--accent-color);
 }
 
