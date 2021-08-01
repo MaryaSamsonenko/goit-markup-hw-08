@@ -41,7 +41,6 @@
   visibility: hidden;
   pointer-events: none;
   transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
-  overflow: auto;
 }
 .mobile-menu.is-open {
   opacity: 1;
@@ -78,7 +77,11 @@
 
 .mobile-menu__container {
   position: relative;
-  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 796px;
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
@@ -97,9 +100,6 @@
 .nav-list__item:not(:last-child),
 .mobile-contact__item:not(:last-child) {
   margin-bottom: 32px;
-}
-.nav-list {
-  margin-bottom: 302px;
 }
 
 .mobile-contact-tel__link {
